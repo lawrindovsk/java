@@ -20,16 +20,15 @@ public class MeuPrimeiroPrograma {
 
         //4 - criar e add clientes na lista;
         meusClientes.add(new Cliente("Gustavo Laurindo", "gustavo.lsantos05@gmail.com"));
-        meusClientes.add(new Cliente("Elza de Jesus", "elza.jesus@gmail.com"));
+
         meusClientes.add(new Cliente("Pyter Laurindo", "pyter.lauriindo@gmail.com"));
-        meusClientes.add(new Cliente("Julia Vitoria Maciel Figueiredo", "julia.figueiro@gmail.com"));
 
         //5 - printar os clientes;
         System.out.println("Total de clientes na list: " + meusClientes.size());
 
         //6 - percorre na lista (em c# seria foreach)
         // é praticamente igual
-        System.out.println("+++ Lista de Clientes");
+        System.out.println("+++ Lista de Clientes da Pasta +++");
         for (Cliente cliente: meusClientes){
             // para cada cliente DENTRO da lista meusClientes, printa
             System.out.println("Nome: " + cliente.getNome());
